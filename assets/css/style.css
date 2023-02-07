@@ -4,7 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
-  color: #fff;
+  color: #ffffff;
   position: relative;
   background: transparent;
 }
@@ -12,7 +12,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #0f0f0f url("../img/bg.png") top right no-repeat;
+  background:url("../img/bg.png") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -23,7 +23,7 @@ body::before {
 
 @media only screen and (max-width: 768px) {
    body::before{
-     background: #ffffff url(none);
+     background: #000000 url(none);
    }
 }
 
