@@ -12,7 +12,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.png") top right no-repeat;
+  background: #0f0f0f url("../img/bg.png") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -23,7 +23,7 @@ body::before {
 
 @media only screen and (max-width: 768px) {
    body::before{
-     background: #040404 url(none);
+     background: #ffffff url(none);
    }
 }
 
@@ -34,12 +34,12 @@ body::before {
 }
 
 a {
-  color: #db1cff;
+  color: #006eff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #db1cff;
+  color: #006eff;
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #db1cff;
+  border-bottom: 2px solid #006eff;
   padding-bottom: 6px;
 }
 
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #db1cff;
+  background: #006eff;
 }
 
 @media (max-width: 992px) {
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #db1cff;
+  background-color: #006eff;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -354,7 +354,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -363,7 +363,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #db1cff;
+  background: #007bff;
   margin: 4px 10px;
 }
 
@@ -374,7 +374,7 @@ section .container {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -383,7 +383,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #db1cff;
+  color: #007bff;
 }
 
 .about-me .content ul {
@@ -404,7 +404,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #db1cff;
+  color: #007bff;
   line-height: 0;
 }
 
@@ -435,11 +435,11 @@ section .container {
   padding: 0;
   line-height: 1;
   font-size: 16px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background:  #0d0d0d;
 }
 
 /*--------------------------------------------------------------
@@ -456,7 +456,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #db1cff;
+  background: #007bff;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -501,8 +501,8 @@ section .container {
 }
 
 .projects .icon-box:hover {
-  background: #db1cff;
-  border-color: #db1cff;
+  background: #007bff;
+  border-color: #007bff;
 }
 
 .projects .icon-box:hover .icon {
@@ -510,11 +510,11 @@ section .container {
 }
 
 .projects .icon-box:hover .icon i {
-  color: #db1cff;
+  color: #007bff;
 }
 
 .projects .icon-box:hover .icon::before {
-  background: #db1cff;
+  background: #007bff;
 }
 
 .projects .icon-box:hover h4 a, .projects .icon-box:hover p {
@@ -525,7 +525,7 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: #ffffff;
   padding: 20px;
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
@@ -533,7 +533,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #db1cff;
+  color: #007bff;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -570,7 +570,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #db1cff;
+  color: #007bff;
 }
 
 @-webkit-keyframes animate-loading {
@@ -615,10 +615,11 @@ section .container {
 }
 
 .credits a {
-  color: #db1cff;
+  color: #ffffff;
   transition: 0.3s;
 }
 
 .credits a:hover {
-  color: #fff;
+  color: #007bff;
 }
+
